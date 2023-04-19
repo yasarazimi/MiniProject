@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Page"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/Name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Type your name"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/FName"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="F/Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/FName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Type your father's name"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Type your email"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Phone"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/Phone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Type your Phone number"
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:id="@+id/buttonS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup" />
+
+    <Button
+        android:id="@+id/buttonL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <ImageView
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sig" />
+
+
+</LinearLayout>

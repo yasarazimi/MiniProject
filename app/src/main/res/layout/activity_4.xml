@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Activity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="#EEEBEB"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Lesson's"
+            android:textSize="25sp"
+            android:textColor="#0D0E0E"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill's Can be learned anywhere, you just need to have the urge to learn. "
+            android:textColor="#0D0E0E"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+            <LinearLayout
+                android:id="@+id/office"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/office_bg"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Office package"
+                        android:textStyle="bold"
+                        android:textSize="23sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learn about the Ms.Office"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:padding="8dp"
+                    android:src="@drawable/officepa"
+                    android:layout_marginLeft="30dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cyber"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/mobile_application"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cyber Security"
+                        android:textStyle="bold"
+                        android:textSize="23sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learn about Cyber Technology"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:padding="8dp"
+                    android:src="@drawable/cyber"
+                    android:layout_marginLeft="30dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ethical"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/ethical_hacking"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ethical hacking"
+                        android:textStyle="bold"
+                        android:textSize="23sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learn about the right way to hack"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:padding="8dp"
+                    android:src="@drawable/hacking"
+                    android:layout_marginLeft="30dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mobile"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cyber_security"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Application"
+                        android:textStyle="bold"
+                        android:textSize="23sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learn howto create Mobile Apps"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:padding="8dp"
+                    android:src="@drawable/app"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/web"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/webdesign"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Web Design"
+                        android:textStyle="bold"
+                        android:textSize="23sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learn how to Design a website"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#FFFFFF"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:padding="8dp"
+                    android:src="@drawable/web"
+                    android:layout_marginLeft="30dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
